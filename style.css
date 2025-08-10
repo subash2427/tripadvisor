@@ -618,44 +618,54 @@ width: 500px;
 }
 
 .sponsers__text1 p{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bolder;  
 }
 
 .sponsers__text2{
-    display:flex;
+    /* display:flex;
     position: absolute;
     width: 600px;
     left: 100px;
-    bottom: 90px;
-}
-.sponsers__text2 h2{
+    bottom: 90px; */
+    
+    display:flex;
     position: relative;
+    width: 400px;
+    left: 100px;
+    bottom: 135px;
+}
+
+.sponsers__text2 h2{
+    position: absolute;
     bottom: 120px;
-    margin-top: 60px;
-    width: 900%;
-    margin-left: 50px;
+    margin-top: 100px;
+    width: 300%;
+    margin-left: 40px;
 }
 .sponsers__text2 p{
     font-size: 16px;
-    font-weight: 15px; 
-    width: 100px;
-    margin-right: 200px;
+    position: absolute;
+    font-weight: 40px; 
+    width: 410px;
+    top: 340px;
+    right: -10px;
+   
  
 }
 .sponsers__text3{
     display:flex;
     position: absolute;
     left: 760px;
-    bottom: 30px;
+    bottom: 80px;
     background-color: whitesmoke;
     color: black;
-    padding: 18px;
+    padding: 14px;
     border-radius: 30px;
 }
 .sponsers__text3 p{
     font-size: 20px;
-    font-weight: 15px;  
+    font-weight: 30px;  
 }
 .sponsers__text3 p:hover{
     opacity: 0.7;
@@ -734,4 +744,7 @@ width: 500px;
     gap: 30px;
     margin-left: 890px;
     font-size: 25px;
+}
+@media screen and (max-width:1155px){
+    .signin{}
 }

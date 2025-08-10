@@ -1,0 +1,401 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Font family*/
+
+body {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+/*Header / Navigation*/
+
+.header {
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #143C24;
+}
+
+.header__desc {
+    display: flex;
+    position: relative;
+    gap: 30px;
+    left: 100px;
+    
+}
+.header__desc p{
+     padding: 10px;
+    border: #E5E5E5 solid 1;
+    border-radius: 20px;
+    
+}
+.header__desc p:hover{
+    background-color: #E5E5E5;
+    padding: 10px;
+    border: #E5E5E5 solid 1;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header__icon {
+    display: flex;
+    position: relative;
+    right: -160px;
+    gap: 5px;
+    padding: 10px;
+    border: transparent solid 1;
+    border-radius: 20px;
+}
+.header__icon:hover{
+    padding: 10px;
+    background-color: #E5E5E5;
+    border: #E5E5E5 solid 1;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header__signin {
+    background-color: #143C24;
+    width: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.header__signin:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/*Title*/
+
+.title {
+    
+    font-size: 50px;
+    width: 254px;
+    position: relative;
+    left: 40%;
+    top: 60px;
+    font-weight: bolder;
+    color: #143C24;
+}
+
+/*Suggestion*/
+
+.suggestion{
+    display: flex;
+    position: relative;
+    top: 150px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.suggestion p{
+    border-bottom:  solid 3px transparent;
+    
+    
+}
+#suggestion__home{
+    border-bottom: #143C24 solid 3px ;
+}
+.suggestion p:hover{
+    border-bottom: #143C24 solid 3px ;
+    cursor: pointer;
+    
+}
+
+/*Search Bar*/
+
+.search-bar{
+    background-color: #F7F7F7;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 19%;
+    justify-content: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 60px;
+    align-items: center;
+    gap: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.search-bar__input{
+    width: 100%;
+    display: flex;
+    position: relative;
+      align-items: center;
+    left: 10px;
+    gap: 10px;
+}
+.search-bar__input input{
+    display: flex;
+    border: none;
+    width: 90%;
+    font-size: 20px;
+    background-color: transparent;
+  
+    
+    
+}
+
+.search-bar p{
+    display: flex;
+    background-color:#00EB5B;
+    border-radius: 27px;
+    width: 80px;
+    padding: 15px;
+    position: relative;
+    right: 4px;
+    justify-content: center;
+}
+
+.search-bar p:hover{
+    background-color: #00D352;
+    cursor: pointer;
+}
+
+.search-bar__input input:focus{
+    outline: none;
+}
+
+/*Block*/
+
+.block{
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    background-color: #00D352;
+    width: 85%;
+    height: 420px;
+    top: 300px;
+    left: 100px;
+    
+   
+}
+
+
+.block__img2 img:hover{
+    display: none;
+   
+}
+
+
+.block__img1 img{
+    display: flex;
+    position:absolute;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.block__img2 img{
+    display: flex;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.block__line{
+    display: flex;
+    position: relative;
+    left: 530px;
+    top: 11px;
+    width: 0.98px;
+    height: 400px;
+    background-color: black;
+}
+
+.block__contant{
+    display:flex;
+    position: absolute;
+    width: 400px;
+    right: 0px;
+    top: 60px;
+    
+
+    
+}
+.block__contant p{
+    font-size: 40px;
+    font-weight: bolder;
+   
+   
+ 
+}
+
+.block__contant--2{
+    display: flex;
+    position: absolute;
+    right: 55px;
+    bottom: 170px;
+    
+
+}
+.block__contant--2 p{
+    font-size: 18px;
+    font-weight: 10;
+}
+
+.block__contant--3{
+    display: flex;
+    position: absolute;
+    right: 210px;
+    bottom: 60px;
+    background-color: #143C24;
+    color: #F7F7F7;
+    padding: 15px;
+    border-radius: 30px;
+}
+.block__contant--3:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/*Activities*/
+
+.activities__container{
+    
+    position: relative;
+    top: 370px;
+}
+
+.activities__heading{
+position: relative;
+left: 100px;
+width: 500px;
+
+}
+.activities__heading p{
+    padding-top: 10px;
+    
+}
+
+.activities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+    width: 85%;
+    gap: 15px;
+    
+   
+
+}
+.activities__card{
+    flex-basis: 20%;
+    flex-grow: 1;
+   position: relative;
+    
+   
+    
+    
+}
+
+.activities__card:hover{
+    opacity: 0.8;
+}
+.activities__card img{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.activities__card p{
+    font-size: 26px;
+    position: absolute;
+    width: 95%;
+
+    left: 110px;
+    bottom: -180px;
+    color: white;
+}
+
+/*Explore*/
+
+.explore{
+    width: 85%;
+    height: 220px;
+    background-color:#F7F7F7;
+    position: relative;
+    top: 700px;
+    left: 100px;
+    border-radius: 10px;
+}
+
+.explore__img{
+    width: 20%;
+}
+
+.explore__img img{
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    border-radius: 30px;
+    transform: rotate(-5deg);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.explore__desc1{
+    background-color: #EAEAEA;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    border-radius: 10px;
+    font-size: 12px;
+    
+}
+
+.explore__desc2{
+    position: absolute;
+    left: 350px;
+    bottom: 70px;
+}
+.explore__desc2 p{
+    position: relative;
+    top: 20px;
+    font-size: 13px;
+}
+
+.explore__desc3{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: solid black 1.5px;
+    border-radius: 20px;
+    width: fit-content;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    
+}
+
+.explore__desc3:hover{
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
